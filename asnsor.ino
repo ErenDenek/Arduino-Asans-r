@@ -6,6 +6,7 @@
 #define e 24
 #define f 25
 #define g 26
+
 bool buton1 = 0, buton2 = 0, buton3 = 0, x = 0, buton = 0;
 int ldr1 = 0, ldr2 = 0, ldr3 = 0;
 int Durum1, Durum2, Durum3, kat = 0;
@@ -19,7 +20,7 @@ Servo myservo1;
 Servo myservo2;
 Servo myservo3;
 
-unsigned long zaman1 = 0, zaman2, zaman3, zaman4, zaman;
+unsigned long zaman1 , zaman2, zaman3, zaman4, zaman;
 
 void setup() {
   Serial.begin(250000);
